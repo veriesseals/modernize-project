@@ -1,0 +1,131 @@
+*{
+    /*outline: 1px dotted red;*/
+    font-family: serif;  
+}
+
+p{
+    color: whitesmoke;
+}
+
+
+/*Header*/
+.header{ 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(29, 26, 26);
+
+}
+.header p{
+    justify-content: space-between;
+    margin-right: 5px; 
+}
+
+/*Menu*/
+
+#menu{
+    text-align: left;
+    background-color: rgb(68, 63, 63);
+    padding: 5px;
+
+}
+#menu ul{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+}
+.menu_items{
+    align-items: flex-start;
+}
+
+.menu_items li{
+    color: whitesmoke;
+}
+
+
+/*page_info1*/
+.splash_img img{
+    width: 100%;
+}
+
+.page_info1{
+    display: flex;
+    background-color: rgb(29, 26, 26);
+    padding: 10px;
+}
+
+
+.page_info1 h4{
+    color: rgb(231, 80, 25);
+    
+}
+
+/*page_info2*/
+
+.page_info2{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(19, 18, 18);
+    align-items: center;
+    
+}
+.page_info2 h4{
+    margin-left: 10px;
+    
+    
+}
+
+.page_info2 p{
+    margin-left: 10px;
+  
+}
+.page_info2 a{
+    margin-right: 10px;
+    background-color:rgb(231, 80, 25);
+    padding: 5px;
+    border-radius: 7px;
+}
+
+/*portfolio_title*/
+
+.portfolio_title{ 
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(68, 63, 63);
+    margin: auto;
+    padding: 10px;
+}
+
+.portfolio_title p{
+    color:rgb(231, 80, 25);  
+}
+
+/*gallery*/
+.gallery_info{
+    display: flex;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: rgb(29, 26, 26);
+}
+
+.gallery_info h5{
+    color:rgb(231, 80, 25);
+}
+
+h4{
+    color: whitesmoke;
+}
+
+h3{
+    color: whitesmoke;
+}
+
+h5{
+    color: whitesmoke;
+}
+
+
+
+
+
